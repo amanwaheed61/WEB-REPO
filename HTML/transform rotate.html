@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate</title>
+
+
+<style>
+
+
+
+/* By default value of rotate work on z axis */
+
+.main{
+
+    width: 400px;
+    height: 400px;
+    border: 2px solid darkblue;
+    margin: auto;
+    margin-top: 30px;
+    box-shadow:0px 0px 40px 10px red;
+    transform:rotate(180deg);
+
+
+}
+
+.main:hover{
+    transform: rotate(360deg);
+}
+
+.row{
+
+width: 300px;
+height: 400px;
+border: 2px solid greenyellow;
+margin: auto;
+margin-top: 60px;
+box-shadow:0px 0px 40px 10px red;
+transform: rotate(40deg);
+}
+
+.row:hover{
+    transform: rotate(0deg);
+}
+
+
+.column{
+
+    width: 300px;
+    height: 300px;
+    border: 2px solid red;
+    margin: auto;
+    margin-top:60px;
+    box-shadow:0px 0px 40px 10px red;
+    transform: rotate(180deg);
+
+}
+
+.column:hover{
+    transform: rotate(360deg);
+}
+
+</style>
+
+
+
+
+
+</head>
+<body>
+    <div class="main">
+
+        x axis
+    </div>
+
+
+
+    <div class="row">
+    z axis
+    </div>
+
+    <div class="column">
+
+        y axis
+
+
+    </div>
+</body>
+</html>

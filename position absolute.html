@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute Position</title>
+
+
+
+
+
+
+
+    <!-- 2 TARAH KI POSITION KI WORKING HUI HAI ABSOLUTE OR RELATIVE KI ABSOLUTE POSITION JU DI JAI GI TO JIS DIV KO ABSOLUTE DIYA JAI GA WO APNAY 
+     PARENT KE BILKUL START MAI AJAI GA OR YE APNA PARENT BODY KO CONSIDERD KARTA HAI .
+     
+     NEXT POSITION JO HAI WO RELATIVE POSITION HAI IS MAI JIS BOX KO POSITION RELATIVE DI JAI GI WO APNI JAGAH SAY HI MOVE KARAY GA APNI POSITION
+     KO CHORRAY GA NI AGAR USAT TOP OR LEFT SAY KUCH PROPERTIES DI B JAI GI TO WO APNAY PARENT SAY HI MOVE KARAY GA.
+     
+     -->
+
+<style>
+
+.col1{
+
+    width:300px;
+    height: 300px;
+    border: 4px solid green;
+    float:left;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: RED;
+
+    padding-top:60px;
+
+}
+
+.col2{
+
+    width:300px;
+    height:300px;
+    border: 4px solid yellow;
+    float:left;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:60px;
+    position:absolute;
+    top:140px;
+    left: 180px;
+    background-color: yellow;
+}
+
+.col3{
+        width: 300px;
+        height: 300px;
+        border: 4px solid red;
+        float:left;
+        background-color: BLUE;
+        text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top:60px;
+
+}
+
+</style>
+
+
+</head>
+<body>
+    
+
+    <div class="col1">
+        1
+    </div>
+    <div class="col2">
+        2
+    </div>
+    <div class="col3">
+        3
+    </div>
+    
+</body>
+</html>
